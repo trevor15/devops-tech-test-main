@@ -1,5 +1,14 @@
 # DevOps Tech Test
 
+## Notes
+
+The script seems to work okay, however I do have a few issues:
+  - The entrypoint.sh file does not seem to run when the containers are spun up. I have added the dependencies to the file but to test it, I installed them manually
+  - The unit tests seem to all be failing despite my script working alright, I don't think the table is exporting the data to the listed files in the unit tests
+  - I am having an issue where the dbVersion is resetting to 2 after I update it with the script.
+
+I am happy to go through these problems and explain or show them better in the discussion around this. I am aware that I could have taken a bit more time to try and figure this out, however I have already been delayed in sending this over to you due to a family emergency that I felt that as long as script was complete, I should send it as soon as I possibly could.
+
 ## Preperation
 
 Please Clone this repository and push it up to your own github repository.
