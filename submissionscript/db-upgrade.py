@@ -12,7 +12,7 @@ def main(argv):
     if len(sys.argv) != 6:
         print("Missing argument! Please check your command line syntax")
         exit()
-
+ 
     # Get thie latest database version
     cursor.execute("SELECT version FROM versionTable")
 
